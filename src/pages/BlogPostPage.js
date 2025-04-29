@@ -286,7 +286,6 @@ const NotFound = styled.div`
 
 const BlogPostPage = () => {
   const { slug } = useParams();
-  const navigate = useNavigate();
   const [post, setPost] = useState(null);
   const [relatedPosts, setRelatedPosts] = useState([]);
   
